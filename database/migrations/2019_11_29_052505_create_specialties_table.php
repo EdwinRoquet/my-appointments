@@ -21,7 +21,7 @@ class CreateSpecialtiesTable extends Migration
         });
     }
 
-    /**
+     /**
      * Reverse the migrations.
      *
      * @return void
@@ -30,4 +30,6 @@ class CreateSpecialtiesTable extends Migration
     {
         Schema::dropIfExists('specialties');
     }
+
+  
 }
